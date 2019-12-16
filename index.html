@@ -1,0 +1,91 @@
+<html>
+<head>
+    <title>:::PROJECT2019:::</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="home.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+    <div class="menu-top">
+        <a href="contact.html">ติดต่อเรา</a>
+        <a href="#top">กลับสู่ด้านเรา</a>
+        <a href="index2.html">หน้าหลัก</a>
+        <form>
+             <button type="reset">Reset</button>
+             <button type="submit" onclick="login()">Login</button>
+            <input type="password" placeholder="password" id="password">
+            <input type="textbox" placeholder="username" id="username">
+        </form>
+        <script>
+        function login(){
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if(password != null && username != null){
+                alert("ยินดีต้อนรับคุณ "+username);
+            }else{
+                alert("กรุณากรอกข้อมูลให้ครบถ้วน");
+            }
+        }
+        </script>
+    </div>
+    <div class="page">
+    <div class="banner">
+        <div>
+            <img src="pic/logo.jpg" width="150" height="150">
+             <h1>TITLE</h1>
+        </div>
+    </div>
+    <div class="menu-bar">
+        <a href="3.html">เสน่ห์วรรณคดี</a>
+        <a href="3.html">บ้านสวนกลางป่า</a>
+        <a href="2.html">ดอกไม้ภาคกลาง</a>
+        <a href="1.html">ลำพูนเมืองวัฒนธรรมนำสู่อาเซียน</a>
+    </div>
+    <div class="content parallax">
+	<video src="video/1.mp4" style="width:40%;margin:10px;float:left;" controls="true"></video>
+	<p style="width:50%;float:left;">
+		<b>ลำพูน</b> เมืองวัฒนธรรมนำสู่อาเซียน ร้องโดย อ.ธำรง และ นางสาวแคททาลียาสมแปง
+	</p>
+    </div>
+    <div class="content" style="background-color:#cccccc;">
+	<div class="new">
+		<img src="pic/images.jpg">
+		<p>
+			<b>บ้านสวน</b> สถานที่ที่เป็นของรางวัลให้กับผู้ชนะเลิศ
+		</p>
+		<a href="1.html">อ่านต่อ</a>
+	</div>
+	<div class="new">
+		<img src="pic/images.jpg">
+		<p>
+			<b>บ้านสวน</b> สถานที่ที่เป็นของรางวัลให้กับผู้ชนะเลิศ
+		</p>
+		<a href="1.html">อ่านต่อ</a>
+	</div>
+	<div class="new">
+		<img src="pic/images.jpg">
+		<p>
+			<b>บ้านสวน</b> สถานที่ที่เป็นของรางวัลให้กับผู้ชนะเลิศ
+		</p>
+		<a href="1.html">อ่านต่อ</a>
+	</div>
+    </div>
+    <div class="content pic" style="background-color:white;">
+	<a href="3.jpg" target="new"><img src="pic/3.jpg"></a>
+	<a href="3.jpg" target="new"><img src="pic/3.jpg"></a>
+	<a href="3.jpg" target="new"><img src="pic/3.jpg"></a>
+	<a href="3.jpg" target="new"><img src="pic/3.jpg"></a>
+	<a href="3.jpg" target="new"><img src="pic/3.jpg"></a>
+	<a href="3.jpg" target="new"><img src="pic/3.jpg"></a>
+	<a href="3.jpg" target="new"><img src="pic/3.jpg"></a>
+	<a href="3.jpg" target="new"><img src="pic/3.jpg"></a>
+    </div>
+  <div class="footer">
+	<p>
+		&copy; Yupparaj Wittayalai School <br>
+		<a href="#">โรงเรียนยุพราชวิทยาลัย</a> | <a href="#">โรงเรียนอนุบาลหมีน้อย</a>
+	</p>
+  </div>
+</div>
+</body>
+</html>
